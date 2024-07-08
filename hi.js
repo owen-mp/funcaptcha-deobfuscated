@@ -179,7 +179,6 @@ function ArkoseEnforcement(a) {
       typeof b3.value.join !== 'undefined' && (b4 = b3.value.join(';')), b1.push(b4);
     });
     var b2 = aA(b1.join("~~~"), 31);
-      // window hash here
     return {
       'fp': b2,
       'vals': b0,
@@ -509,7 +508,6 @@ function ArkoseEnforcement(a) {
     return !!window["WebGLRenderingContex" + 't'] && !!aZ.getContext;
   }
   function L(aZ) {
-    // important
     var co = bU,
       b0 = u(aZ),
       b1 = {
